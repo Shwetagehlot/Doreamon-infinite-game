@@ -24,7 +24,7 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(600,400);
+  createCanvas(windowWidth,windowHeight);
   song.loop();
   home = createSprite(300,200,20,20);
   home.addImage(homeImg);
